@@ -1,0 +1,659 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.head{
+	max-width: 900px;
+	margin: auto;
+	
+	overflow: auto;
+	margin-bottom: 0px;
+}
+
+.image1{
+	float: left;
+	padding-top: 20px;
+}
+
+.image2{
+	float: right;
+	padding-bottom: 0px; 
+}
+
+.h1{
+	background-color: #d83230;;
+	background-size: cover;
+}
+
+.h11{
+	max-width: 900px;
+	margin: auto;
+	background-color: #d83230;;
+	background-size: cover;
+}
+
+.welcome{
+	font-size: 25px;
+	color: white;
+}
+
+.sign{
+	font-size: 50px;
+	color: white;
+	float: left;
+	width: 33%;
+}
+
+.sign1{
+	background-color: #ad2826;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+
+.me{
+	color: white;
+	font-size: 15px;
+}
+
+input[type=signin]{
+	width: 100%;
+	background-color: #ef6b13;
+	color: white;
+	border: 0;
+	cursor: pointer;
+	text-align: center;
+	font-size: 25px;
+	margin: 0;
+}
+
+input[type=signin]:hover{
+	background-color: red;
+}
+
+.email{
+	padding-top: 0;
+	height: 45px;
+}
+
+.pass{
+	padding-top: 0;
+	height: 45px;
+}
+
+.remem{
+	padding-top: 0;
+	height: 45px;
+}
+
+input[type=text],select{
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	border: 0;
+	height: 35px;
+	display: inline-block;
+}
+
+input[type=password],select{
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	border: 0;
+}
+
+.block{
+	float: right;
+	width: 66%;
+	padding-top: 50px;
+	}
+
+.time{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}	
+
+.block1{
+	float: left;
+	width: 49%;
+	background-color: #ad2826;
+	height: 150px;
+
+}
+
+.block2{
+	background-color: #ad2826;
+	float: right;
+	width: 49%;
+	height: 150px;
+}
+
+.teachers{
+	padding: 5px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.parents{
+	padding: 5px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.account{
+	background-color: #3FB0EB;
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	max-width: 250px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+.account a{
+	color: white;
+}
+
+.account:hover{
+	background-color: #0098c8;
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	max-width: 250px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.start{
+	background-color: #ef6b13;
+	text-align: center;
+	font-size: 23px;
+	max-width: 250px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.start a{
+	color: white;
+	
+}
+
+.start:hover{
+	background-color: red;
+	text-align: center;
+	font-size: 23px;
+	max-width: 250px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.h2{
+	background-color: #d83230;;
+	height: 300px;
+}
+
+.h21{
+	background-color:#ad2826 ;
+	height: 20px;
+}
+
+.h3{
+	background-color: green;
+	margin-top: 1px;
+}
+
+.h31{
+	max-width: 900px;
+	margin: auto;
+	background-color: green;
+	background-size: cover;
+}
+
+.h311{
+	float: left;
+	padding-top: 75px;
+
+}
+
+.h312{
+	float: right;
+	padding-top: 25px;
+	
+}
+
+.sec2{
+	position: relative;
+}
+
+.img1{
+	position: absolute;
+	top: 90px;
+	left: 324px;
+	overflow: auto;
+	
+}
+
+.img2{
+	position: absolute;
+	bottom: 0;
+	left: 850px;
+	overflow: auto;
+}
+
+.read{
+	position: absolute;
+	top: 0;
+	text-align: center;
+	max-width: 900px;
+	font-size: 45px;
+	color: white;
+}
+
+.h4{
+	max-width: 900px;
+	margin: auto;
+}
+
+.h5{
+	max-width: 900px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.love{
+	padding-top: 30px;
+	text-align: center;
+	color: #d83230;
+	font-size: 40px;
+	padding-bottom: 25px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 25%;
+  padding: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.first{
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.second{
+	font-size: 20px;
+	text-align: center;
+}
+
+.for{
+	text-align: center;
+	font-size: 45px;
+	color: #d83230	;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.box1 {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  border-right: 1px solid #d83230;
+  height: 145px;
+}
+
+.clearfix1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.h6{
+	margin-top:0px;
+	max-width: 900px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+.third{
+	margin: 7px;
+	font-size: 22px;
+	text-align: center;	
+}
+
+.box11 {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  border-right: 1px solid #d83230;
+  height: 145px;
+  border-left: 1px solid #d83230;
+}
+
+
+.h51{
+	background-color: #F4F1EA;
+	padding-bottom: 10px;
+	
+}
+
+.h511{
+	max-width: 900px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: white;
+	margin-bottom: 10px;
+	height: 325px;
+}
+.get{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 50px;
+	text-align: center;
+	color: #d83230;
+}
+
+.vid{
+	float: left;
+	width: 66%;
+	padding-left: 5px;
+}
+
+.vids{
+	float: right;
+	width: 33%;
+}
+
+.vidss{
+	border: 2px solid #F4F1EA;
+	height: 315px;
+	overflow: auto;
+}
+
+.v1{
+	float: left;
+	width: 46%;
+	height: 84px;
+}
+
+.v2{
+	float: right;
+	width: 46%;
+	height: 84px;
+}
+
+.h7{
+	background-color: #F4F1EA;
+	padding-top: 20px;
+}
+
+.h71{
+	text-align: center;
+	font-size: 45px;
+	padding-top: 30px;
+	color: #d83230;
+	padding-bottom: 20px;
+}
+
+.h72{
+	max-width: 900px;
+	margin: auto;
+}
+
+.teach{
+	font-size: 45px;
+	color: #d83230;
+	text-align: center;
+}
+
+.paren{
+	font-size: 45px;
+	color:#d83230;
+	text-align: center;
+}
+
+.b1{
+	float: left;
+	width: 50%;
+}
+
+.b2{
+	float: right;
+	width: 50%;
+}
+
+.b11{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 10px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	background-color: #3FB0EB;	
+	margin-right: 10px;
+	color: white;
+}
+
+.b21{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 10px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	background-color: #ef6b13;	
+	margin-left: 10px;
+	color: white;
+}
+
+.h8{
+	background-color: #F4F1EA;
+	height: 150px;
+}
+
+.h9{
+	background-color: white;
+	height: 100px;
+}
+
+.h10{
+	background-color: #F4F1EA;
+	margin-bottom: 50px;
+}
+
+.h100{
+	max-width: 900px;
+	margin: auto;
+}
+
+.bx1 {
+	background-color: #F4F1EA;
+  float: left;
+  width: 25%;
+  padding: 20px;
+  border-right: 5px solid white;
+  height: 200px;
+}
+
+.bx11 {
+	background-color: #F4F1EA;
+  float: left;
+  width: 25%;
+  padding: 20px;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  height: 200px;
+}
+
+.clearfix2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bx112{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.bx112 a{
+	color: black;
+}
+
+.bx112 a:hover{
+	color: #ef6b13;
+}
+
+.bx114{
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+.bx114 a{
+	color: black;
+}
+
+.bx114 a:hover{
+	color: #ef6b13;
+}
+
+.bx113{
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+.bx113 a{
+	color: black;
+}
+
+.bx113 a:hover{
+	color: #ef6b13;
+}
+
+.bx12{
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+.bx13	{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.bx13 a{
+	color: black;
+}
+
+.bx13 a:hover{
+	color: #ef6b13;
+}
+
+.bx14 a{
+	color: black;
+}
+
+.bx14 a:hover{
+	color: #ef6b13;
+}
+
+.bx15{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.bx16{
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+.bx16 a{
+	color: black;
+}
+
+.bx16 a:hover{
+	color: #ef6b13;
+}
+
+.bx32{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.bx32 a{
+	color: black;
+}
+
+.bx32 a:hover{
+	color: #ef6b13;
+}
+
+.bx42{
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.bx42 a{
+	color: black;
+}
+
+.bx42 a:hover{
+	color: #F4F1EA;
+}
+
+.feedback{
+	transform: rotate(90deg);
+	position: fixed;
+	bottom: 50%;
+	right: 0;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.feedback:hover{
+	transform: rotate(90deg);
+	position: fixed;
+	bottom: 50%;
+	right: 0;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
